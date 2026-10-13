@@ -1,0 +1,67 @@
+{
+  "sampleRate": 48000,
+  "interval_seconds": 15,
+  "source": "Original JS MXM replay state, mixer voices, fractional tick position and RAM; contains no prerecorded PCM",
+  "checkpoints": [
+    {
+      "seconds": 0,
+      "metadata": "audio-seek-checkpoints/at-0s.json",
+      "memory": "audio-seek-checkpoints/at-0s.bin.gz"
+    },
+    {
+      "seconds": 15,
+      "metadata": "audio-seek-checkpoints/at-15s.json",
+      "memory": "audio-seek-checkpoints/at-15s.bin.gz"
+    },
+    {
+      "seconds": 30,
+      "metadata": "audio-seek-checkpoints/at-30s.json",
+      "memory": "audio-seek-checkpoints/at-30s.bin.gz"
+    },
+    {
+      "seconds": 45,
+      "metadata": "audio-seek-checkpoints/at-45s.json",
+      "memory": "audio-seek-checkpoints/at-45s.bin.gz"
+    },
+    {
+      "seconds": 60,
+      "metadata": "audio-seek-checkpoints/at-60s.json",
+      "memory": "audio-seek-checkpoints/at-60s.bin.gz"
+    },
+    {
+      "seconds": 75,
+      "metadata": "audio-seek-checkpoints/at-75s.json",
+      "memory": "audio-seek-checkpoints/at-75s.bin.gz"
+    },
+    {
+      "seconds": 90,
+      "metadata": "audio-seek-checkpoints/at-90s.json",
+      "memory": "audio-seek-checkpoints/at-90s.bin.gz"
+    },
+    {
+      "seconds": 105,
+      "metadata": "audio-seek-checkpoints/at-105s.json",
+      "memory": "audio-seek-checkpoints/at-105s.bin.gz"
+    },
+    {
+      "seconds": 120,
+      "metadata": "audio-seek-checkpoints/at-120s.json",
+      "memory": "audio-seek-checkpoints/at-120s.bin.gz"
+    },
+    {
+      "seconds": 135,
+      "metadata": "audio-seek-checkpoints/at-135s.json",
+      "memory": "audio-seek-checkpoints/at-135s.bin.gz"
+    },
+    {
+      "seconds": 150,
+      "metadata": "audio-seek-checkpoints/at-150s.json",
+      "memory": "audio-seek-checkpoints/at-150s.bin.gz"
+    },
+    {
+      "seconds": 165,
+      "metadata": "audio-seek-checkpoints/at-165s.json",
+      "memory": "audio-seek-checkpoints/at-165s.bin.gz"
+    }
+  ]
+}

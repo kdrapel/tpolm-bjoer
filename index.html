@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Bjoer by TPOLM. The 1997 64k intro, brought to your browser.">
+  <title>Bjoer — TPOLM</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css?v=tracker-v10">
+</head>
+<body>
+  <main id="shell">
+    <canvas id="screen" width="320" height="240" aria-label="Bjoer intro"></canvas>
+    <section id="gate" aria-label="Bjoer">
+      <canvas id="background" width="320" height="200" aria-hidden="true"></canvas>
+      <div class="shade" aria-hidden="true"></div>
+      <div class="gate-content">
+        <h1><img class="bitmap-text" src="data/bjor.png" alt="Bjor"></h1>
+        <p class="group"><img class="bitmap-text" src="data/tpolm.png" alt="TPOLM"></p>
+        <p class="meta">bjoer - tpolm · 64k intro · 1997</p>
+        <dl class="credits">
+          <div><dt>Code</dt><dd>Raven</dd></div>
+          <div><dt>Graphics</dt><dd>Feather</dd></div>
+          <div><dt>Music</dt><dd>Croaker</dd></div>
+        </dl>
+        <button id="start" class="start" type="button" disabled>Preparing<span class="dots" aria-hidden="true"></span></button>
+      </div>
+      <footer>
+        <p><kbd>space</kbd> pause · <kbd>← →</kbd> seek · <kbd>f</kbd> fullscreen · <kbd>esc</kbd> stop</p>
+		
+ <nav aria-label="Production links">
+          <a href="https://www.pouet.net/prod.php?which=12" target="_blank" rel="noopener noreferrer">Pouët</a>
+          <a id="github" href="https://github.com/kdrapel/tpolm-bjoer">GitHub</a>
+        </nav>
+		
+
+	   <p class="effect-links">Effects explained: <a href="effects-explained/cube-twirl-explainer.html">Twisting cube</a> · <a href="effects-explained/sprite-rendering-explainer.html">Sprites &amp; transparency</a> · <a href="effects-explained/mxm-explainer.html">MXM music</a></p>
+      </footer>
+    </section>
+    <div id="hud" hidden>
+      <button id="pause" type="button" aria-label="Pause intro">Pause</button>
+      <button id="stop" type="button">Stop</button>
+      <button id="backward" type="button" aria-label="Back 15 seconds">−15s</button><button id="forward" type="button" aria-label="Forward 15 seconds">+15s</button>
+      <input list="seek-marks" id="timeline" type="range" min="0" max="169.9" step="0.1" value="0" aria-label="Seek intro">
+      <datalist id="seek-marks"><option value="0"></option><option value="15"></option><option value="30"></option><option value="45"></option><option value="60"></option><option value="75"></option><option value="90"></option><option value="105"></option><option value="120"></option><option value="135"></option><option value="150"></option><option value="165"></option></datalist>
+      <output id="time">0:00 / 2:50</output>
+      <button id="fullscreen" type="button">Fullscreen</button>
+      <label class="stats-switch"><input id="stats-toggle" type="checkbox" role="switch" aria-controls="stats">Stats for nerds</label>
+      <label>Volume <input id="volume" type="range" min="0" max="1" step="0.01" value="0.7"></label>
+    </div>
+    <div id="loading" hidden role="status" aria-live="polite"><span>Loading…</span></div>
+    <section id="nerd-panel" hidden aria-label="Stats and live module tracker">
+      <output id="stats" hidden aria-label="Displayed frames per second">FPS: —</output>
+      <div id="tracker-title">bjoer.mxm · 16 channels</div>
+      <div class="tracker-scroll"><canvas id="tracker" width="608" height="208" aria-label="Scrolling music tracker, 16 channels"></canvas></div>
+    </section>
+    <p id="status" role="status" aria-live="polite"></p>
+  </main>
+  <script src="data/initial-state.js"></script>
+  <script type="module" src="app/app.mjs?v=tracker-v10"></script>
+</body>
+</html>

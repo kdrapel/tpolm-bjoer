@@ -1,0 +1,215 @@
+{
+  "scope": "Continuous JS-derived two-tick schedule from the initial seed; explicit configured-period PIT, no autonomous IRQ. This cadence is provisional until original timing is independently established. No eight-tick states reused.",
+  "frame_ticks": 2,
+  "period": 22265,
+  "interval_seconds": 5,
+  "checkpoints": [
+    {
+      "seconds": 5,
+      "tick": 266,
+      "metadata": "js-seek-checkpoints/at-5s.json",
+      "memory": "js-seek-checkpoints/at-5s.bin.gz"
+    },
+    {
+      "seconds": 10,
+      "tick": 534,
+      "metadata": "js-seek-checkpoints/at-10s.json",
+      "memory": "js-seek-checkpoints/at-10s.bin.gz"
+    },
+    {
+      "seconds": 15,
+      "tick": 802,
+      "metadata": "js-seek-checkpoints/at-15s.json",
+      "memory": "js-seek-checkpoints/at-15s.bin.gz"
+    },
+    {
+      "seconds": 20,
+      "tick": 1070,
+      "metadata": "js-seek-checkpoints/at-20s.json",
+      "memory": "js-seek-checkpoints/at-20s.bin.gz"
+    },
+    {
+      "seconds": 25,
+      "tick": 1338,
+      "metadata": "js-seek-checkpoints/at-25s.json",
+      "memory": "js-seek-checkpoints/at-25s.bin.gz"
+    },
+    {
+      "seconds": 30,
+      "tick": 1606,
+      "metadata": "js-seek-checkpoints/at-30s.json",
+      "memory": "js-seek-checkpoints/at-30s.bin.gz"
+    },
+    {
+      "seconds": 35,
+      "tick": 1874,
+      "metadata": "js-seek-checkpoints/at-35s.json",
+      "memory": "js-seek-checkpoints/at-35s.bin.gz"
+    },
+    {
+      "seconds": 40,
+      "tick": 2142,
+      "metadata": "js-seek-checkpoints/at-40s.json",
+      "memory": "js-seek-checkpoints/at-40s.bin.gz"
+    },
+    {
+      "seconds": 45,
+      "tick": 2410,
+      "metadata": "js-seek-checkpoints/at-45s.json",
+      "memory": "js-seek-checkpoints/at-45s.bin.gz"
+    },
+    {
+      "seconds": 50,
+      "tick": 2678,
+      "metadata": "js-seek-checkpoints/at-50s.json",
+      "memory": "js-seek-checkpoints/at-50s.bin.gz"
+    },
+    {
+      "seconds": 55,
+      "tick": 2946,
+      "metadata": "js-seek-checkpoints/at-55s.json",
+      "memory": "js-seek-checkpoints/at-55s.bin.gz"
+    },
+    {
+      "seconds": 60,
+      "tick": 3214,
+      "metadata": "js-seek-checkpoints/at-60s.json",
+      "memory": "js-seek-checkpoints/at-60s.bin.gz"
+    },
+    {
+      "seconds": 65,
+      "tick": 3482,
+      "metadata": "js-seek-checkpoints/at-65s.json",
+      "memory": "js-seek-checkpoints/at-65s.bin.gz"
+    },
+    {
+      "seconds": 70,
+      "tick": 3750,
+      "metadata": "js-seek-checkpoints/at-70s.json",
+      "memory": "js-seek-checkpoints/at-70s.bin.gz"
+    },
+    {
+      "seconds": 75,
+      "tick": 4018,
+      "metadata": "js-seek-checkpoints/at-75s.json",
+      "memory": "js-seek-checkpoints/at-75s.bin.gz"
+    },
+    {
+      "seconds": 80,
+      "tick": 4286,
+      "metadata": "js-seek-checkpoints/at-80s.json",
+      "memory": "js-seek-checkpoints/at-80s.bin.gz"
+    },
+    {
+      "seconds": 85,
+      "tick": 4554,
+      "metadata": "js-seek-checkpoints/at-85s.json",
+      "memory": "js-seek-checkpoints/at-85s.bin.gz"
+    },
+    {
+      "seconds": 90,
+      "tick": 4822,
+      "metadata": "js-seek-checkpoints/at-90s.json",
+      "memory": "js-seek-checkpoints/at-90s.bin.gz"
+    },
+    {
+      "seconds": 95,
+      "tick": 5090,
+      "metadata": "js-seek-checkpoints/at-95s.json",
+      "memory": "js-seek-checkpoints/at-95s.bin.gz"
+    },
+    {
+      "seconds": 100,
+      "tick": 5358,
+      "metadata": "js-seek-checkpoints/at-100s.json",
+      "memory": "js-seek-checkpoints/at-100s.bin.gz"
+    },
+    {
+      "seconds": 105,
+      "tick": 5626,
+      "metadata": "js-seek-checkpoints/at-105s.json",
+      "memory": "js-seek-checkpoints/at-105s.bin.gz"
+    },
+    {
+      "seconds": 110,
+      "tick": 5894,
+      "metadata": "js-seek-checkpoints/at-110s.json",
+      "memory": "js-seek-checkpoints/at-110s.bin.gz"
+    },
+    {
+      "seconds": 115,
+      "tick": 6162,
+      "metadata": "js-seek-checkpoints/at-115s.json",
+      "memory": "js-seek-checkpoints/at-115s.bin.gz"
+    },
+    {
+      "seconds": 120,
+      "tick": 6430,
+      "metadata": "js-seek-checkpoints/at-120s.json",
+      "memory": "js-seek-checkpoints/at-120s.bin.gz"
+    },
+    {
+      "seconds": 125,
+      "tick": 6698,
+      "metadata": "js-seek-checkpoints/at-125s.json",
+      "memory": "js-seek-checkpoints/at-125s.bin.gz"
+    },
+    {
+      "seconds": 130,
+      "tick": 6966,
+      "metadata": "js-seek-checkpoints/at-130s.json",
+      "memory": "js-seek-checkpoints/at-130s.bin.gz"
+    },
+    {
+      "seconds": 135,
+      "tick": 7234,
+      "metadata": "js-seek-checkpoints/at-135s.json",
+      "memory": "js-seek-checkpoints/at-135s.bin.gz"
+    },
+    {
+      "seconds": 140,
+      "tick": 7502,
+      "metadata": "js-seek-checkpoints/at-140s.json",
+      "memory": "js-seek-checkpoints/at-140s.bin.gz"
+    },
+    {
+      "seconds": 145,
+      "tick": 7770,
+      "metadata": "js-seek-checkpoints/at-145s.json",
+      "memory": "js-seek-checkpoints/at-145s.bin.gz"
+    },
+    {
+      "seconds": 150,
+      "tick": 8038,
+      "metadata": "js-seek-checkpoints/at-150s.json",
+      "memory": "js-seek-checkpoints/at-150s.bin.gz"
+    },
+    {
+      "seconds": 155,
+      "tick": 8306,
+      "metadata": "js-seek-checkpoints/at-155s.json",
+      "memory": "js-seek-checkpoints/at-155s.bin.gz"
+    },
+    {
+      "seconds": 160,
+      "tick": 8574,
+      "metadata": "js-seek-checkpoints/at-160s.json",
+      "memory": "js-seek-checkpoints/at-160s.bin.gz"
+    },
+    {
+      "seconds": 165,
+      "tick": 8842,
+      "metadata": "js-seek-checkpoints/at-165s.json",
+      "memory": "js-seek-checkpoints/at-165s.bin.gz"
+    },
+    {
+      "seconds": 170,
+      "tick": 9110,
+      "metadata": "js-seek-checkpoints/at-170s.json",
+      "memory": "js-seek-checkpoints/at-170s.bin.gz"
+    }
+  ],
+  "complete": true,
+  "requested_seconds": 170,
+  "last_completed_seconds": 169.9943093342005
+}
