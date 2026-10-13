@@ -8,6 +8,8 @@ TPOLM · 64k intro · 1997
 
 Production: https://www.pouet.net/prod.php?which=12
 
+## ▶▶ [Watch the JS port here ](https://kdrapel.github.io/tpolm-bjoer/)
+
 <table>
 <tr>
 <td><img src="docs/images/cube.png" alt="Bjoer's distorted spline cube" width="400" /></td>
@@ -18,6 +20,8 @@ Production: https://www.pouet.net/prod.php?which=12
 <td><img src="docs/images/blended.png" alt="Layered curves in the final blended scene" width="400" /></td>
 </tr>
 </table>
+
+
 
 These four stills are newly computed frames of the JavaScript intro with its
 original palette. They are documentation images; the player renders its graphics
